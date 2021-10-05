@@ -3,19 +3,30 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B3553F4BF7DAD9978728A5A /* Pods_RxSwiftProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB77FB25397B7C807D2DB9E /* Pods_RxSwiftProject.framework */; };
 		46081744270779CD00B9DED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46081743270779CD00B9DED9 /* AppDelegate.swift */; };
 		46081746270779CD00B9DED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46081745270779CD00B9DED9 /* SceneDelegate.swift */; };
 		46081748270779CD00B9DED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46081747270779CD00B9DED9 /* ViewController.swift */; };
 		4608174B270779CD00B9DED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46081749270779CD00B9DED9 /* Main.storyboard */; };
 		4608174D270779CE00B9DED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4608174C270779CE00B9DED9 /* Assets.xcassets */; };
 		46081750270779CE00B9DED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4608174E270779CE00B9DED9 /* LaunchScreen.storyboard */; };
+		4608176427077AAF00B9DED9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608176327077AAF00B9DED9 /* LoginView.swift */; };
+		4608176727077ABD00B9DED9 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4608176627077ABD00B9DED9 /* LoginView.xib */; };
+		4608176A27077D0A00B9DED9 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608176927077D0A00B9DED9 /* LoginViewModel.swift */; };
+		4608176E27077E3400B9DED9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608176D27077E3400B9DED9 /* APIManager.swift */; };
+		46081772270787E800B9DED9 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46081770270787E800B9DED9 /* Database.xcdatamodeld */; };
+		460817772707883D00B9DED9 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460817752707883D00B9DED9 /* User+CoreDataClass.swift */; };
+		460817782707883D00B9DED9 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460817762707883D00B9DED9 /* User+CoreDataProperties.swift */; };
+		4608177B270788D800B9DED9 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608177A270788D800B9DED9 /* Extension.swift */; };
+		4608177E270789B100B9DED9 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4608177D270789B100B9DED9 /* Database.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FB77FB25397B7C807D2DB9E /* Pods_RxSwiftProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46081740270779CD00B9DED9 /* RxSwiftProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46081743270779CD00B9DED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		46081745270779CD00B9DED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,17 @@
 		4608174C270779CE00B9DED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4608174F270779CE00B9DED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46081751270779CE00B9DED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4608176327077AAF00B9DED9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4608176627077ABD00B9DED9 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		4608176927077D0A00B9DED9 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		4608176D27077E3400B9DED9 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		46081771270787E800B9DED9 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		460817752707883D00B9DED9 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		460817762707883D00B9DED9 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		4608177A270788D800B9DED9 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		4608177D270789B100B9DED9 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		A6221B04145543BEA0E0EF70 /* Pods-RxSwiftProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftProject.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftProject/Pods-RxSwiftProject.release.xcconfig"; sourceTree = "<group>"; };
+		A69DBFDBDE906CCD0E431D54 /* Pods-RxSwiftProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftProject.debug.xcconfig"; path = "Target Support Files/Pods-RxSwiftProject/Pods-RxSwiftProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B3553F4BF7DAD9978728A5A /* Pods_RxSwiftProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DBED491340D8D49FD695748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FB77FB25397B7C807D2DB9E /* Pods_RxSwiftProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		440EA1114373921CD2203803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A69DBFDBDE906CCD0E431D54 /* Pods-RxSwiftProject.debug.xcconfig */,
+				A6221B04145543BEA0E0EF70 /* Pods-RxSwiftProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		46081737270779CD00B9DED9 = {
 			isa = PBXGroup;
 			children = (
 				46081742270779CD00B9DED9 /* RxSwiftProject */,
 				46081741270779CD00B9DED9 /* Products */,
+				440EA1114373921CD2203803 /* Pods */,
+				0DBED491340D8D49FD695748 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +98,12 @@
 		46081742270779CD00B9DED9 /* RxSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				4608176C27077E1B00B9DED9 /* Model */,
+				4608175E27077A3100B9DED9 /* Helper */,
+				4608175D27077A2600B9DED9 /* Database */,
+				4608175C27077A1F00B9DED9 /* ViewControllers */,
+				4608175B27077A1700B9DED9 /* ViewModels */,
+				4608175A27077A1200B9DED9 /* Views */,
 				46081743270779CD00B9DED9 /* AppDelegate.swift */,
 				46081745270779CD00B9DED9 /* SceneDelegate.swift */,
 				46081747270779CD00B9DED9 /* ViewController.swift */,
@@ -67,6 +115,65 @@
 			path = RxSwiftProject;
 			sourceTree = "<group>";
 		};
+		4608175A27077A1200B9DED9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4608176327077AAF00B9DED9 /* LoginView.swift */,
+				4608176627077ABD00B9DED9 /* LoginView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4608175B27077A1700B9DED9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				4608176927077D0A00B9DED9 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4608175C27077A1F00B9DED9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4608175D27077A2600B9DED9 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				460817742707882D00B9DED9 /* User */,
+				46081770270787E800B9DED9 /* Database.xcdatamodeld */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		4608175E27077A3100B9DED9 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4608177A270788D800B9DED9 /* Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		4608176C27077E1B00B9DED9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4608176D27077E3400B9DED9 /* APIManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		460817742707882D00B9DED9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				460817752707883D00B9DED9 /* User+CoreDataClass.swift */,
+				460817762707883D00B9DED9 /* User+CoreDataProperties.swift */,
+				4608177D270789B100B9DED9 /* Database.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46081754270779CE00B9DED9 /* Build configuration list for PBXNativeTarget "RxSwiftProject" */;
 			buildPhases = (
+				60CDDB905DC0E184726C26FE /* [CP] Check Pods Manifest.lock */,
 				4608173C270779CD00B9DED9 /* Sources */,
 				4608173D270779CD00B9DED9 /* Frameworks */,
 				4608173E270779CD00B9DED9 /* Resources */,
+				76B056BF030053B4A5790A9F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,20 +235,71 @@
 			files = (
 				46081750270779CE00B9DED9 /* LaunchScreen.storyboard in Resources */,
 				4608174D270779CE00B9DED9 /* Assets.xcassets in Resources */,
+				4608176727077ABD00B9DED9 /* LoginView.xib in Resources */,
 				4608174B270779CD00B9DED9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		60CDDB905DC0E184726C26FE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76B056BF030053B4A5790A9F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftProject/Pods-RxSwiftProject-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxSwiftProject/Pods-RxSwiftProject-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxSwiftProject/Pods-RxSwiftProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4608173C270779CD00B9DED9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46081772270787E800B9DED9 /* Database.xcdatamodeld in Sources */,
+				4608177E270789B100B9DED9 /* Database.swift in Sources */,
+				4608176E27077E3400B9DED9 /* APIManager.swift in Sources */,
 				46081748270779CD00B9DED9 /* ViewController.swift in Sources */,
 				46081744270779CD00B9DED9 /* AppDelegate.swift in Sources */,
+				4608176427077AAF00B9DED9 /* LoginView.swift in Sources */,
+				4608177B270788D800B9DED9 /* Extension.swift in Sources */,
+				4608176A27077D0A00B9DED9 /* LoginViewModel.swift in Sources */,
+				460817772707883D00B9DED9 /* User+CoreDataClass.swift in Sources */,
 				46081746270779CD00B9DED9 /* SceneDelegate.swift in Sources */,
+				460817782707883D00B9DED9 /* User+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +443,7 @@
 		};
 		46081755270779CE00B9DED9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69DBFDBDE906CCD0E431D54 /* Pods-RxSwiftProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +463,7 @@
 		};
 		46081756270779CE00B9DED9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6221B04145543BEA0E0EF70 /* Pods-RxSwiftProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -341,6 +503,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46081770270787E800B9DED9 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46081771270787E800B9DED9 /* Database.xcdatamodel */,
+			);
+			currentVersion = 46081771270787E800B9DED9 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 46081738270779CD00B9DED9 /* Project object */;
 }
